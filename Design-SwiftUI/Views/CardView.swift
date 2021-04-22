@@ -44,7 +44,7 @@ struct CardView: View {
                 .scaledToFit()
                 .frame(width: 300, height: 110)
         }
-        .frame(width: showCard ? 375 : 340, height: 220)
+        .frame(width: showCard ? 360 : 340, height: 220)
         .background(bgColor)
         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
     }

@@ -9,10 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     
+    enum StateView {
+        case height
+        case middle
+        case low
+    }
+    
     @State private var show = false
     @State private var showCard = false
+    @State private var showFull = false
     @State private var viewState: CGSize = .zero
     @State private var bottomState: CGSize = .zero
+    @State private var stateBottomView: StateView = .middle
+    
     
     var body: some View {
         ZStack {
@@ -55,20 +64,52 @@ struct ContentView: View {
                 }
                 .gesture(
                     DragGesture()
-                        .onChanged{ value in
+                        .onChanged { value in
                             viewState = value.translation
                             showCard = false
                             show = true
                         }
-                        .onEnded{ _ in
+                        .onEnded { _ in
                             viewState = .zero
                             show = false
                         }
                 )
             
+            Text("\(bottomState.height)")
+                .foregroundColor(.white)
+                .offset(y: -300)
+            
             BottomCardView()
                 .offset(x: 0, y: showCard ? 360 : 1000)
+                .offset(y: bottomState.height)
                 .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.7))
+                .gesture(
+                    DragGesture()
+                        .onChanged { value in
+                            bottomState = value.translation
+                            
+                            if showFull {
+                                bottomState.height += -300
+                            }
+                            
+                            if bottomState.height < -300 {
+                                bottomState.height = -310
+                            }
+                        }
+                        .onEnded { _ in
+                            if bottomState.height > 50 {
+                                showCard = false
+                            }
+                            
+                            if (bottomState.height < -50 && !showFull) || (bottomState.height < -250 && showFull) {
+                                bottomState.height = -300
+                                showFull = true
+                            } else {
+                                bottomState = .zero
+                                showFull = false
+                            }
+                        }
+                )
         }
     }
 }
