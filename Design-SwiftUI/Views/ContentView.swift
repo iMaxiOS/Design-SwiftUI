@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+let screen = UIScreen.main.bounds
+
 struct ContentView: View {
     
     enum StateView {
@@ -20,8 +22,6 @@ struct ContentView: View {
     @State private var showFull = false
     @State private var viewState: CGSize = .zero
     @State private var bottomState: CGSize = .zero
-    @State private var stateBottomView: StateView = .middle
-    
     
     var body: some View {
         ZStack {

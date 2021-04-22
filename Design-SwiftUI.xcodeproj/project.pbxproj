@@ -10,6 +10,10 @@
 		AC7F066B2631682A009693C4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F066A2631682A009693C4 /* CardView.swift */; };
 		AC7F066E26316C94009693C4 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F066D26316C94009693C4 /* NavigationView.swift */; };
 		AC7F067126317987009693C4 /* BottomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F067026317987009693C4 /* BottomCardView.swift */; };
+		AC7F06752631BD34009693C4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F06742631BD34009693C4 /* MenuView.swift */; };
+		AC7F06792631BE28009693C4 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F06782631BE28009693C4 /* MenuRow.swift */; };
+		AC7F067D2631C8F5009693C4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F067C2631C8F5009693C4 /* HomeView.swift */; };
+		AC7F06832631D490009693C4 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F06822631D490009693C4 /* AvatarView.swift */; };
 		ACF5E53F263024F600DAE0A9 /* Design_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5E53E263024F600DAE0A9 /* Design_SwiftUIApp.swift */; };
 		ACF5E541263024F600DAE0A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5E540263024F600DAE0A9 /* ContentView.swift */; };
 		ACF5E546263024F800DAE0A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF5E545263024F800DAE0A9 /* Preview Assets.xcassets */; };
@@ -20,6 +24,10 @@
 		AC7F066A2631682A009693C4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AC7F066D26316C94009693C4 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		AC7F067026317987009693C4 /* BottomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCardView.swift; sourceTree = "<group>"; };
+		AC7F06742631BD34009693C4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		AC7F06782631BE28009693C4 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		AC7F067C2631C8F5009693C4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AC7F06822631D490009693C4 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		ACF5E53B263024F600DAE0A9 /* Design-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF5E53E263024F600DAE0A9 /* Design_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_SwiftUIApp.swift; sourceTree = "<group>"; };
 		ACF5E540263024F600DAE0A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,12 +50,32 @@
 		AC7F066826316816009693C4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AC7F06802631D480009693C4 /* Home */,
+				AC7F06772631BE1D009693C4 /* Menu */,
 				AC7F067026317987009693C4 /* BottomCardView.swift */,
 				AC7F066A2631682A009693C4 /* CardView.swift */,
 				ACF5E540263024F600DAE0A9 /* ContentView.swift */,
 				AC7F066D26316C94009693C4 /* NavigationView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		AC7F06772631BE1D009693C4 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				AC7F06742631BD34009693C4 /* MenuView.swift */,
+				AC7F06782631BE28009693C4 /* MenuRow.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		AC7F06802631D480009693C4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AC7F067C2631C8F5009693C4 /* HomeView.swift */,
+				AC7F06822631D490009693C4 /* AvatarView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		ACF5E532263024F600DAE0A9 = {
@@ -156,9 +184,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF5E541263024F600DAE0A9 /* ContentView.swift in Sources */,
+				AC7F06792631BE28009693C4 /* MenuRow.swift in Sources */,
+				AC7F06752631BD34009693C4 /* MenuView.swift in Sources */,
 				AC7F067126317987009693C4 /* BottomCardView.swift in Sources */,
 				AC7F066B2631682A009693C4 /* CardView.swift in Sources */,
+				AC7F067D2631C8F5009693C4 /* HomeView.swift in Sources */,
 				AC7F066E26316C94009693C4 /* NavigationView.swift in Sources */,
+				AC7F06832631D490009693C4 /* AvatarView.swift in Sources */,
 				ACF5E53F263024F600DAE0A9 /* Design_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
