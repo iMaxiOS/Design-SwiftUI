@@ -23,7 +23,23 @@ struct HomeView: View {
                     Spacer()
                 }
                 .padding(.horizontal)
+                .padding(.leading, 14)
                 .padding(.top, 30)
+                
+                ScrollView(.horizontal, showsIndicators: false, content: {
+                    HStack(spacing: 20) {
+                        ForEach(sections) { card in
+                            GeometryReader { reader in
+                                SectionView(section: card)
+                                    .rotation3DEffect(Angle(degrees: Double(reader.frame(in: .global).minX - 30) / -20),
+                                                      axis: (x: 0, y: 10, z: 0))
+                            }
+                            .frame(width: 275, height: 275)
+                        }
+                    }
+                    .padding(30)
+                    .padding(.bottom, 30)
+                })
                 
                 Spacer()
             }
