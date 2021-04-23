@@ -15,7 +15,7 @@ struct NavigationView: View {
                 Text("Certificates")
                     .font(.title)
                     .fontWeight(.bold)
-                    .foregroundColor(.black)
+                    .foregroundColor(Color(.label))
                 
                 Spacer()
                 

@@ -17,6 +17,8 @@
 		AC963F402632B8F000B53968 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC963F3F2632B8F000B53968 /* SectionView.swift */; };
 		AC963F442632BAC300B53968 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC963F432632BAC300B53968 /* Section.swift */; };
 		AC963F482632BB7000B53968 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC963F472632BB7000B53968 /* Constants.swift */; };
+		ACAD96232632D3F700993DFE /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD96222632D3F700993DFE /* RingView.swift */; };
+		ACAD9626263311AF00993DFE /* RingViewCompleted.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD9625263311AF00993DFE /* RingViewCompleted.swift */; };
 		ACF5E53F263024F600DAE0A9 /* Design_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5E53E263024F600DAE0A9 /* Design_SwiftUIApp.swift */; };
 		ACF5E541263024F600DAE0A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5E540263024F600DAE0A9 /* ContentView.swift */; };
 		ACF5E546263024F800DAE0A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF5E545263024F800DAE0A9 /* Preview Assets.xcassets */; };
@@ -34,6 +36,8 @@
 		AC963F3F2632B8F000B53968 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		AC963F432632BAC300B53968 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		AC963F472632BB7000B53968 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ACAD96222632D3F700993DFE /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		ACAD9625263311AF00993DFE /* RingViewCompleted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingViewCompleted.swift; sourceTree = "<group>"; };
 		ACF5E53B263024F600DAE0A9 /* Design-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF5E53E263024F600DAE0A9 /* Design_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_SwiftUIApp.swift; sourceTree = "<group>"; };
 		ACF5E540263024F600DAE0A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				AC7F066A2631682A009693C4 /* CardView.swift */,
 				ACF5E540263024F600DAE0A9 /* ContentView.swift */,
 				AC7F066D26316C94009693C4 /* NavigationView.swift */,
+				ACAD96222632D3F700993DFE /* RingView.swift */,
+				ACAD9625263311AF00993DFE /* RingViewCompleted.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 				AC7F06792631BE28009693C4 /* MenuRow.swift in Sources */,
 				AC963F402632B8F000B53968 /* SectionView.swift in Sources */,
 				AC7F06752631BD34009693C4 /* MenuView.swift in Sources */,
+				ACAD9626263311AF00993DFE /* RingViewCompleted.swift in Sources */,
 				AC963F442632BAC300B53968 /* Section.swift in Sources */,
 				AC7F067126317987009693C4 /* BottomCardView.swift in Sources */,
+				ACAD96232632D3F700993DFE /* RingView.swift in Sources */,
 				AC7F066B2631682A009693C4 /* CardView.swift in Sources */,
 				AC7F067D2631C8F5009693C4 /* HomeView.swift in Sources */,
 				AC7F066E26316C94009693C4 /* NavigationView.swift in Sources */,

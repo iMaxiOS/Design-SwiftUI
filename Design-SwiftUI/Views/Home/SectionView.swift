@@ -42,5 +42,7 @@ struct SectionView: View {
 struct SectionView_Previews: PreviewProvider {
     static var previews: some View {
         SectionView(section: sections[1])
+            .previewLayout(.sizeThatFits)
+            .padding()
     }
 }

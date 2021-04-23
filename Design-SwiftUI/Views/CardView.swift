@@ -52,7 +52,7 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(title: "Design in SwiftUI", descr: "Certificates", bgColor: .black, image: "2", showCard: .constant(false))
+        CardView(title: "Design in SwiftUI", descr: "Certificates", bgColor: .red, image: "2", showCard: .constant(false))
             .previewLayout(.sizeThatFits)
             .padding()
     }
