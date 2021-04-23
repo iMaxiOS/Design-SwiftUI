@@ -19,6 +19,7 @@
 		AC963F482632BB7000B53968 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC963F472632BB7000B53968 /* Constants.swift */; };
 		ACAD96232632D3F700993DFE /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD96222632D3F700993DFE /* RingView.swift */; };
 		ACAD9626263311AF00993DFE /* RingViewCompleted.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD9625263311AF00993DFE /* RingViewCompleted.swift */; };
+		ACAD962A26331DC800993DFE /* RingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD962926331DC800993DFE /* RingsView.swift */; };
 		ACF5E53F263024F600DAE0A9 /* Design_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5E53E263024F600DAE0A9 /* Design_SwiftUIApp.swift */; };
 		ACF5E541263024F600DAE0A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5E540263024F600DAE0A9 /* ContentView.swift */; };
 		ACF5E546263024F800DAE0A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF5E545263024F800DAE0A9 /* Preview Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		AC963F472632BB7000B53968 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ACAD96222632D3F700993DFE /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		ACAD9625263311AF00993DFE /* RingViewCompleted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingViewCompleted.swift; sourceTree = "<group>"; };
+		ACAD962926331DC800993DFE /* RingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingsView.swift; sourceTree = "<group>"; };
 		ACF5E53B263024F600DAE0A9 /* Design-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF5E53E263024F600DAE0A9 /* Design_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_SwiftUIApp.swift; sourceTree = "<group>"; };
 		ACF5E540263024F600DAE0A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				AC7F066A2631682A009693C4 /* CardView.swift */,
 				ACF5E540263024F600DAE0A9 /* ContentView.swift */,
 				AC7F066D26316C94009693C4 /* NavigationView.swift */,
+				ACAD962926331DC800993DFE /* RingsView.swift */,
 				ACAD96222632D3F700993DFE /* RingView.swift */,
 				ACAD9625263311AF00993DFE /* RingViewCompleted.swift */,
 			);
@@ -227,6 +230,7 @@
 				AC7F066E26316C94009693C4 /* NavigationView.swift in Sources */,
 				AC7F06832631D490009693C4 /* AvatarView.swift in Sources */,
 				ACF5E53F263024F600DAE0A9 /* Design_SwiftUIApp.swift in Sources */,
+				ACAD962A26331DC800993DFE /* RingsView.swift in Sources */,
 				AC963F482632BB7000B53968 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

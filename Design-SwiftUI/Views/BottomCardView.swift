@@ -18,7 +18,7 @@ struct BottomCardView: View {
                 .opacity(0.1)
             
             Text("Exploring the possibilities of developing responsive design in SwiftUI")
-                .foregroundColor(Color(.systemBackground))
+                .foregroundColor(Color(.label))
                 .multilineTextAlignment(.center)
                 .font(.subheadline)
                 .lineSpacing(5)
@@ -29,7 +29,7 @@ struct BottomCardView: View {
                 VStack(alignment: .leading) {
                     Text("Design in SwiftUI")
                         .bold()
-                        .foregroundColor(Color(.systemBackground))
+                        .foregroundColor(Color(.label))
                     
                     Text("27 of 50 lessons completed")
                         .font(.footnote)

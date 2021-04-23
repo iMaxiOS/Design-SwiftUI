@@ -9,6 +9,8 @@ import SwiftUI
 
 struct SectionView: View {
     var section: Section
+    var width: CGFloat = 275
+    var height: CGFloat = 275
     
     var body: some View {
         VStack {
@@ -32,7 +34,7 @@ struct SectionView: View {
         }
         .padding(.top, 20)
         .padding(.horizontal, 20)
-        .frame(width: 275, height: 275)
+        .frame(width: width, height: height)
         .background(section.bgColor)
         .cornerRadius(20)
         .shadow(color: section.bgColor.opacity(0.5), radius: 20, x: 0, y: 20)

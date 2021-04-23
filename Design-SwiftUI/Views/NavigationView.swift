@@ -18,11 +18,6 @@ struct NavigationView: View {
                     .foregroundColor(Color(.label))
                 
                 Spacer()
-                
-                Image("playstore")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 40, height: 40)
             }
             .padding()
             

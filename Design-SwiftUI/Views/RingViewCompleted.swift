@@ -33,6 +33,7 @@ struct RingViewCompleted: View {
                 Text(title)
                     .font(.subheadline)
                     .bold()
+                
                 Text(description)
                     .font(.caption)
             }
